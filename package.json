@@ -1,0 +1,24 @@
+{
+  "name": "backendproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "engine": {
+    "node": "v14.20.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0",
+    "node": "^19.3.0",
+    "nodemon": "^2.0.20"
+  }
+}
